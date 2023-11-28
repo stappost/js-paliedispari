@@ -25,24 +25,32 @@ while(!correct){
     }
 }
 // 4 - sommiamo i due numeri
-let pc_num = random()
-console.log(pc_num)
-let somma = pc_num + number
+let pc_num = random();
+console.log(pc_num);
+let somma = pc_num + number;
+console.log(somma);
 
 // 5 - in una funzione "pariDispari" stabiliamo se i due numeri sono pari o dispari
 //     6 - ? sono pari :
 //         7.1 -  restituiamo "pari"
 function oddOrEven(){
     if(somma%2 == 0){
-        return "pari"
+        return "pari";
     }
     //     8 - : restituiamo "dispari"
     else{
-        return "dispari"
+        return "dispari";36
     }
 }
-let result = oddOrEven()
-console.log(result)
+let result = oddOrEven();
+
+
 // 9 - ? è uscito pari e l'utente ha scelto pari O è uscito dispari e l'utente ha scelto dispari
 //     9.1 - stampiamo il risultato della  funzione  "pariDispari" più "hai vinto";
+if(choise == "pari" && result == "pari" || choise == "dispari" && result == "dispari"){
+    console.log(`il risultato è ${result}. Hai vinto`);
+}
 // 10 - :  stampiamo il risultato della  funzione  "pariDispari" più "ha vinto il computer";
+else{
+    console.log(`il risultato è ${result}. Ha vinto il computer`);
+}
