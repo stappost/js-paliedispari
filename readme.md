@@ -13,3 +13,12 @@ Consigli del giorno
 1. Scriviamo sempre in italiano i passaggi che vogliamo fare
 2. Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
 Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
+
+SCAFFOLDING PALINDROMA
+1 - permettere all'utente di inserire una parola;
+2 - creare una funzione con parametro "parola";
+    3 - trasformare parola in array,capovolgiamola e ritrasformiamola in stringa facendo attenzione che sia tutto in minuscolo
+    4 - confrontiamo il risultato con la parola inserita
+    5 - ? sono uguali
+        5.1 stampiamo "la parola è palindroma"
+    6 - :  stampiamo "la parola NON è palindroma"
