@@ -39,7 +39,7 @@ function oddOrEven(){
     }
     //     8 - : restituiamo "dispari"
     else{
-        return "dispari";36
+        return "dispari";
     }
 }
 let result = oddOrEven();
@@ -47,7 +47,7 @@ let result = oddOrEven();
 
 // 9 - ? è uscito pari e l'utente ha scelto pari O è uscito dispari e l'utente ha scelto dispari
 //     9.1 - stampiamo il risultato della  funzione  "pariDispari" più "hai vinto";
-if(choise == "pari" && result == "pari" || choise == "dispari" && result == "dispari"){
+if(choise == result){
     console.log(`il risultato è ${result}. Hai vinto`);
 }
 // 10 - :  stampiamo il risultato della  funzione  "pariDispari" più "ha vinto il computer";
