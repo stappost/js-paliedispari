@@ -17,10 +17,10 @@ while(!correct){
 
 // 3 - permettiamo all'utente di scegliere tra pari e dispari;
 correct = false;
-let choise;
+let choice;
 while(!correct){
-    choise = prompt("pari o dispari?");
-    if(choise == "pari" || choise == "dispari"){
+    choice = prompt("pari o dispari?");
+    if(choice == "pari" || choice == "dispari"){
         correct = true;
     }
 }
@@ -47,7 +47,7 @@ let result = oddOrEven();
 
 // 9 - ? è uscito pari e l'utente ha scelto pari O è uscito dispari e l'utente ha scelto dispari
 //     9.1 - stampiamo il risultato della  funzione  "pariDispari" più "hai vinto";
-if(choise == result){
+if(choice == result){
     console.log(`il risultato è ${result}. Hai vinto`);
 }
 // 10 - :  stampiamo il risultato della  funzione  "pariDispari" più "ha vinto il computer";
